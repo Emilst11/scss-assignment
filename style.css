@@ -1,0 +1,278 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: Lato;
+  background-color: #252525;
+  color: #ffff;
+}
+
+nav {
+  padding: 1rem 2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+nav a {
+  text-decoration: none;
+  color: #c7b99d;
+  font-size: 2rem;
+  font-weight: 800;
+  font-style: italic;
+}
+
+nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 1rem;
+  padding: 0;
+}
+
+nav ul li {
+  list-style: none;
+}
+
+nav ul li a {
+  color: #252525;
+  font-size: 1.3rem;
+  font-style: normal;
+  font-weight: 400;
+}
+
+nav button {
+  background: none;
+  color: #ffff;
+  border: none;
+  font-size: 1.3rem;
+  padding: .5rem 1.3rem;
+  cursor: pointer;
+}
+
+nav button:nth-child(2) {
+  background-color: #c7b99d;
+  color: #252525;
+}
+
+.jumbotron {
+  width: 1200px;
+  min-height: 300px;
+  height: 55vh;
+  margin: auto;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.jumbotron div {
+  display: block;
+  min-width: 300px;
+  width: 500px;
+  margin-top: 30vh;
+}
+
+.jumbotron div h2 {
+  width: 400px;
+  font-size: 2.3rem;
+}
+
+.jumbotron div p {
+  font-weight: 300;
+  font-size: 1.2rem;
+  width: 300px;
+}
+
+.jumbotron div div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 1rem;
+  margin: 0;
+}
+
+.jumbotron div div button {
+  background: none;
+  color: #ffff;
+  border: 1px solid #5d5c5b;
+  font-size: 1rem;
+  padding: .8rem 1.3rem;
+  cursor: pointer;
+}
+
+.jumbotron div div button:nth-child(2) {
+  border: none;
+  background: #5d5c5b;
+}
+
+.jumbotron > img {
+  height: 80vh;
+  min-height: 50vh;
+  position: absolute;
+  top: 0px;
+  right: 40%;
+  -webkit-transform: translateX(47%);
+          transform: translateX(47%);
+  z-index: -1;
+}
+
+.product {
+  width: 1200px;
+  margin: auto;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto auto auto;
+      grid-template-columns: auto auto auto;
+}
+
+.product h2 {
+  font-weight: 400;
+  position: absolute;
+  -webkit-transform: translateY(-80px);
+          transform: translateY(-80px);
+}
+
+.product img {
+  width: 300px;
+}
+
+.product .card {
+  width: 300px;
+  border: 1px solid #5d5c5b;
+  margin: 1rem 0;
+  padding: 1rem;
+}
+
+.product .card h3 {
+  font-weight: 800;
+  font-size: 1rem;
+}
+
+.product .card p {
+  font-weight: 300;
+}
+
+.product .card div p {
+  font-weight: 800;
+  font-size: 1.5rem;
+}
+
+.about {
+  padding: 30px;
+  width: 1200px;
+  margin: auto;
+  height: 60vh;
+}
+
+.about img {
+  position: absolute;
+  height: 60vh;
+  min-height: 30vh;
+  left: 0;
+  z-index: -1;
+  opacity: .5;
+}
+
+.about div {
+  width: 600px;
+}
+
+.about button {
+  background: #252525;
+  border: none;
+  color: #ffff;
+  font-size: 1rem;
+  padding: .8rem 1.3rem;
+  cursor: pointer;
+}
+
+.contact {
+  width: 1200px;
+  margin: auto;
+  text-align: center;
+  padding: 30px 0;
+}
+
+.contact h3 {
+  font-size: 2rem;
+  font-weight: 300;
+}
+
+.contact form {
+  min-width: 300px;
+  margin: auto;
+  width: 50%;
+}
+
+.contact form input[type="text"] {
+  padding: 1rem;
+  margin-right: 1rem;
+  background-color: #252525;
+  outline: none;
+  border: 1px solid #ffff;
+  width: 80%;
+}
+
+.contact form input[type="submit"] {
+  background: #4c7494;
+  border: none;
+  color: #ffff;
+  font-size: 1rem;
+  padding: 1rem 1.3rem;
+  border: 1px solid #ffff;
+  cursor: pointer;
+}
+
+footer {
+  width: 100%;
+  background-color: #c7b99d;
+  padding: 30px 0 0;
+}
+
+footer > div {
+  width: 1200px;
+  margin: auto;
+  padding: 1rem 30px;
+  color: #252525;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  gap: 1rem;
+}
+
+footer > div div, footer > div ul {
+  width: 250px;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+}
+
+footer > div ul li {
+  list-style: none;
+  margin: 1rem 0;
+}
+
+footer > div ul li a {
+  text-decoration: none;
+  font-size: 1.3rem;
+  font-weight: 400;
+  color: #5d5c5b;
+}
+
+footer > p {
+  padding: 1rem 30px;
+  background-color: #252525;
+  text-align: center;
+}
+/*# sourceMappingURL=style.css.map */
